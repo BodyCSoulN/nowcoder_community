@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+*.jar
+*demo.html
+/.mvn/wrapper/maven-wrapper.properties
