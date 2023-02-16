@@ -44,7 +44,7 @@ public class MapperTests {
     @Test
     public void testSelectPosts(){
         System.out.println("这是中文");
-        List<DiscussPost> list = discussPostMapper.selectDisscussPosts(149, 0, 10);
+        List<DiscussPost> list = discussPostMapper.selectDiscussPosts(149, 0, 10);
         for (DiscussPost post : list){
             System.out.println(post);
         }
